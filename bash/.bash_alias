@@ -1,0 +1,17 @@
+#-------------------------------------------------------------------------------
+# bash aliases
+echo 2. BASH_ALIAS
+#-------------------------------------------------------------------------------
+
+alias a="alias"
+alias h="history"
+alias ls="ls -aF"           # list all files
+alias la="ls -a"            # list everything
+alias ll="ls -Ahl"          # list everything including dot files
+alias ld="ls -h"            # list only directories
+alias l="ls -hl"
+
+alias .="pwd"
+alias ..="cd .."
+
+alias ghost_start="npm start"
