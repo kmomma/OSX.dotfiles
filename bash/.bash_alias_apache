@@ -5,4 +5,5 @@ echo 2.1 BASH_ALIAS_APACHE
 alias apache_start="sudo apachectl start"
 alias apache_stop="sudo apachectl stop"
 alias apache_restart="sudo apachectl restart"
+alias apache_test="sudo apachectl configtest"
 
