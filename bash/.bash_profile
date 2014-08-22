@@ -8,10 +8,12 @@ if [ -f ~/.bash_alias ]; then
 	source ~/.bash_alias
 fi
 
-# ALIAS FOR APACHE
-if [ -f ~/.bash_alias_apache ]; then
-	source ~/.bash_alias_apache
-fi
+# other alias files .bash_alias_WHATEVER
+for file in .bash_alias_*
+do
+	echo "1.1 : Sourcing " $file
+        source $file
+done
 
 #-----------------------------
 # DEFINE TERMINAL COLORS
