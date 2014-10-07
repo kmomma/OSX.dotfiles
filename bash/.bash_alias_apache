@@ -6,4 +6,5 @@ alias apache_start="sudo apachectl start"
 alias apache_stop="sudo apachectl stop"
 alias apache_restart="sudo apachectl restart"
 alias apache_test="sudo apachectl configtest"
+alias APACHE_LOG_DIR="/private/var/log/apache2/"
 

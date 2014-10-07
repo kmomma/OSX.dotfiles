@@ -42,6 +42,11 @@ export LSCOLORS=bxcxDxDxBxegedabagaced
 PS1="\h:\W \u:\!\$" ; EXPORT PS1
 
 #---------------------------------------
+# UPDATE PATH FOR MYSQL
+#---------------------------------------
+export PATH=~/bin:/usr/local/bin:/usr/local/mysql/bin:$PATH
+
+#---------------------------------------
 # CLEAR AND WELCOME
 #---------------------------------------
 clear
