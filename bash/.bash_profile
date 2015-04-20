@@ -39,7 +39,7 @@ export LSCOLORS=bxcxDxDxBxegedabagaced
 # SET PROMPT
 #---------------------------------------
 # DEFAULT : PS1="\h:\W \u\$" ; EXPORT PS1
-PS1="\h:\W \u:\!\$" ; EXPORT PS1
+PS1="\h:\W \u:\!\$ " ; EXPORT PS1
 
 #---------------------------------------
 # UPDATE PATH FOR MYSQL
